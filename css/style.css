@@ -44,6 +44,21 @@ p {
 	line-height:25px;
 	font-size:14px;
 }
+
+p-2 {
+	color:#1705AA;
+	word-spacing:1px;
+	line-height:25px;
+	font-size:17px;
+}
+
+p-3 {
+	color:#1705AA;
+	word-spacing:1px;
+	line-height:25px;
+	font-size:18px;
+}
+
 h2 {
 	font-size:15px;
 	color:#CC88FF!important;
@@ -452,6 +467,7 @@ table {
 	-webkit-transition-delay:0.5s;
 	transition-delay: 0.5s;
 }
+
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/Portada.gif') right bottom no-repeat; /*imagen de la portada*/
@@ -555,6 +571,110 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
+
+/* ==========================================================================Hero2========================================================================== */
+.hero-2 {
+	background: url('../img/Rosetta.gif') right bottom no-repeat; /*imagen de la portada*/
+	background-size: contain;
+	padding:30px 0 100px 0;
+	height:auto;
+	background-color: #fff; /*color de barra del costado*/
+}
+.hero-2 h1 {
+	font-size: 100px;
+	letter-spacing: -8px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 95px;
+	text-transform: uppercase;
+}
+.hero-2 h1 span {
+	color:#a1a9b0;
+	/* display:inline-block; */
+}
+.hero-2 h3 {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: #E04343;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.hero-2 p {
+	letter-spacing:1px;
+	color:#fff;
+	font-size: 15px;
+}
+/* Boucing Arrow Animation */
+@keyframes arrowbounce {
+	from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+@-moz-keyframes arrowbounce {
+	/* Firefox */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+@-webkit-keyframes arrowbounce {
+	/* Safari and Chrome */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+@-o-keyframes arrowbounce {
+	/* Opera */ from {
+		-webkit-transform:translateY(0);
+		-moz-transform:translateY(0);
+		transform:translateY(0);
+	}
+	to {
+		-webkit-transform:translateY(-20px);
+		-moz-transform:translateY(-20px);
+		transform:translateY(-20px);
+	}
+}
+.scrollto {
+	padding: 150px 0px 0px 0px;
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	width:200px;
+	margin:0 auto;
+	border-bottom: none;
+}
+.scrollto--arrow {
+	padding:10px;
+}
+.scrollto--arrow img {
+	animation:arrowbounce 1s alternate infinite;
+	-moz-animation:arrowbounce 1s alternate infinite;
+	/* Firefox */-webkit-animation:arrowbounce 1s alternate infinite;
+	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
+	/* Opera */
+}
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
@@ -571,6 +691,26 @@ h1.arrow {
 h1.arrow span {
     color: #E04343;
 }
+
+h1.arrow-2 {
+	font-size: 16px;
+	text-transform:uppercase;
+	color:#353535;
+	letter-spacing: 4px;
+	background:url('../img/h2-bg.png') no-repeat center bottom;
+	padding-bottom:30px;
+	font-weight: bold;
+}
+
+h1.arrow-3 {
+	font-size: 16px;
+	text-transform:uppercase;
+	color:#353535;
+	letter-spacing: 4px;
+	background:url('../img/h3-bg.png') no-repeat center bottom;
+	padding-bottom:30px;
+	font-weight: bold;
+}
 /* ==========================================================================About========================================================================== */
 .about-image {
 	height:400px;
@@ -579,8 +719,13 @@ h1.arrow span {
 	-o-background-size:cover;
 	background-size:cover;
 }
+
 .color-bg {
 	background: #F05931;
+}
+
+.color-bg-2 {
+	background: #C2ED48;
 }
 
 .color-bg a {
@@ -594,7 +739,7 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn {
     color: white;
-    border-color: #F05931;
+    border-color: #E04343;
 }
 .color-bg .weight-outline-btn:hover {
   background: #1705AA;
@@ -615,6 +760,24 @@ h1.arrow span {
 .color-bg h1.arrow {
     color: #FFF;
 }
+
+
+
+
+/* ==========================================================================Imagen========================================================================== */
+<style>
+   #imagen {
+      width: 100%;
+      height: 100vh; /* Esto asegura que la imagen ocupe el 100% de la altura de la pantalla */
+      overflow: hidden; /* Para asegurarse de que no haya desbordamiento */
+   }
+
+   #imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+   }
+</style>
 /* ==========================================================================Services========================================================================== */
 .services {
 	margin-top:80px;
@@ -871,14 +1034,14 @@ img.grayscale:hover {
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #F05931;
 	padding:70px 0;
 }
 .outline-btn {
 	display:inline-block;
 	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
+	color: #B5ECD9;
+	border: solid 1px #B5ECD9;
 	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
@@ -886,7 +1049,7 @@ img.grayscale:hover {
 .outline-btn:hover,.outline-btn:focus {
 	color: #E04343;
 	border: solid 1px #E04343;
-	background: #FFE801;
+	background: #CC88FF;
 }
 .weight-outline-btn {
 	display:inline-block;
