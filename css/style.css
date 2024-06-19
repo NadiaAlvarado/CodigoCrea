@@ -574,7 +574,7 @@ table {
 
 /* ==========================================================================Hero2========================================================================== */
 .hero-2 {
-	background: url('../img/Rosetta.gif') right bottom no-repeat; /*imagen de la portada*/
+	background: url('../img/New/portada.jpg') right bottom no-repeat; /*imagen de la portada*/
 	background-size: contain;
 	padding:30px 0 100px 0;
 	height:auto;
