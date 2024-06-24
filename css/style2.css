@@ -53,13 +53,13 @@ p-3 {
 
 h2 {
 	font-size:15px;
-	color:#CC88FF!important;
+	color:#568266!important;
 	text-transform:uppercase;
 	font-weight:bold;
 }
 h2::after {
 	content:" ";
-	border:solid 1px #C2ED48;
+	border:solid 1px #ffce55;
 	display:block;
 	width:65px;
 	margin:20px auto;
@@ -462,7 +462,7 @@ table {
 
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/Portada.gif') right bottom no-repeat; /*imagen de la portada*/
+	background: url('../img/New/portada.gif') right bottom no-repeat; /*imagen de la portada*/
 	background-size: contain;
 	padding:30px 0 100px 0;
 	height:auto;
@@ -566,7 +566,7 @@ table {
 
 /* ==========================================================================Hero2========================================================================== */
 .hero-2 {
-	background: url('../img/New/portada.jpg') right bottom no-repeat; /*imagen de la portada*/
+	background: url('../img/New/portada.gif') right bottom no-repeat; /*imagen de la portada*/
 	background-size: contain;
 	padding:30px 0 100px 0;
 	height:auto;
@@ -762,11 +762,11 @@ h1.arrow-6 {
 
 .color-bg .weight-outline-btn {
     color: #f2f6e8;
-    border-color: #E04343;
+    border-color: #568266;
 }
 .color-bg .weight-outline-btn:hover {
-  background: #1705AA;
-  color: #E04343;
+  background: #fb6e52;
+  color: #568266;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
